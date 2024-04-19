@@ -43,7 +43,6 @@ require (
 	github.com/ipfs/go-datastore v0.4.4
 	github.com/ipfs/go-detect-race v0.0.1
 	github.com/ipfs/go-ipfs-addr v0.0.1
-	github.com/ipfs/go-ipns v0.0.2 // indirect
 	github.com/ipfs/go-log v1.0.4
 	github.com/ipfs/go-log/v2 v2.1.1
 	github.com/joonix/log v0.0.0-20200409080653-9c1d2ceb5f1d
@@ -64,7 +63,7 @@ require (
 	github.com/libp2p/go-libp2p-peer v0.2.0
 	github.com/libp2p/go-libp2p-peerstore v0.2.4
 	github.com/libp2p/go-libp2p-pubsub v0.3.1
-	github.com/libp2p/go-libp2p-routing-helpers v0.2.3 // indirect
+	github.com/libp2p/go-libp2p-record v0.1.2 // indirect
 	github.com/libp2p/go-libp2p-swarm v0.2.5
 	github.com/libp2p/go-libp2p-tls v0.1.4-0.20200421131144-8a8ad624a291 // indirect
 	github.com/libp2p/go-libp2p-yamux v0.2.8 // indirect
@@ -92,7 +91,6 @@ require (
 	github.com/status-im/keycard-go v0.0.0-20200402102358-957c09536969 // indirect
 	github.com/tyler-smith/go-bip39 v1.0.2 // indirect
 	github.com/urfave/cli/v2 v2.2.0
-	github.com/wangjia184/sortedset v0.0.0-20160527075905-f5d03557ba30 // indirect
 	github.com/wealdtech/eth2-signer-api v1.3.0
 	github.com/wealdtech/go-bytesutil v1.1.1
 	github.com/wealdtech/go-eth2-wallet v1.9.4
@@ -104,11 +102,10 @@ require (
 	go.etcd.io/bbolt v1.3.4
 	go.opencensus.io v0.22.3
 	go.uber.org/automaxprocs v1.3.0
-	golang.org/x/crypto v0.0.0-20200510223506-06a226fb4e37
+	golang.org/x/crypto v0.21.0
 	golang.org/x/exp v0.0.0-20200513190911-00229845015e
-	golang.org/x/net v0.0.0-20200528225125-3c3fba18258b // indirect
-	golang.org/x/sys v0.0.0-20200523222454-059865788121 // indirect
-	golang.org/x/tools v0.0.0-20200528185414-6be401e3f76e
+	golang.org/x/net v0.23.0 // indirect
+	golang.org/x/tools v0.6.0
 	google.golang.org/genproto v0.0.0-20200528191852-705c0b31589b
 	google.golang.org/grpc v1.29.1
 	google.golang.org/protobuf v1.24.0
